@@ -1,0 +1,176 @@
+.header {
+	top: 0px;
+}
+.projetos {
+	width: 100%;
+	margin-top: 40px;
+	padding: 10px 0;
+}
+.projetos h2 {
+	position: relative;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Libre Baskerville', 'Times New Roman', serif;
+	font-size: 72px;
+	color: #EFF4F9;
+
+}
+.projetos h2:before {
+	content: "";
+	display: block;
+	background: #EFF4F9;
+	width: 200px;
+	height: 3px;
+	margin: 15px auto;
+	
+}
+.projetos h2:after {
+	content: "";
+	display: block;
+	background: #EFF4F9;
+	width: 200px;
+	height: 3px;
+	margin: 15px auto;
+}
+.eventos_capa {
+	background: url('../img/projetos-eventos1.jpg') no-repeat center;
+}
+.pesquisas_capa {
+	background: url('../img/imagem-pesquisa1.jpg') no-repeat center;
+}
+.extensoes_capa {
+	background: url('../img/projetos-extensao1.jpg') no-repeat center;
+}
+.icones {
+	width: 35%;
+	height: 350px;
+	background: #1C295E;
+}
+.icones img {
+	padding: 120px;
+	text-align: center;
+}
+.ilustracao {
+	margin-top: 20px;
+	width: 42%;
+	height: 350px;
+}
+.mensagem {
+	padding-top: 25px;
+	padding-left: 10px;
+	width: 52%;
+	height: 350px;
+}
+.projetos_resumo {
+	padding-top: 60px;
+	width: 100%;
+}
+.descricao {
+	margin-left: 10px;
+	width: 50%;
+}
+.descricao h2 {
+	text-transform: uppercase;
+	text-align: center;
+	font-family: 'Nunito', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+
+	color: #17222D;
+}
+.descricao h2:after {
+	content: "";
+	display: block;
+	width: 120px;
+	height: 3px;
+	background: #17222D;
+	margin:  5px auto 12px auto;
+}
+.descricao p {
+	padding:  5px;
+	font-family: 'Nunito', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+
+	color: #17222D;
+}
+.texto {
+	margin-top: 5px;
+	width: 100%;
+}
+.texto p {
+	padding:  5px;
+	font-family: 'Nunito', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+
+	color: #17222D;
+}
+.ilustracao_projetos {
+	width: 45%;
+}
+.divisor {
+	margin-top: 60px;
+	content: "";
+	display: block;
+	width: 75%;
+	height: 3px;
+	background: #445566;
+}
+.lista {
+	margin-top: 60px;
+}
+.lista h2{
+	font-family: 'Nunito', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+
+	color: #17222D;
+}
+.lista_projetos {
+	margin-top: 30px;
+}
+.itens a {
+	font-family: 'Nunito', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 20px;
+	font-size: 18px;
+
+	color: #17222D;
+}
+/* Generica */
+.generica {
+	width: 100%;
+	padding-top: 60px;
+	padding-left: 30px;
+}
+.desc-generica {
+	margin-left: 60px;
+	width: 400px;
+}
+.desc-generica h3 {
+	text-align: center;
+	font-family: 'Nunito Sans', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 28px;
+
+	color: #000000;
+}
+.desc-generica p, .desc-generica span {
+	text-align: left;
+	padding: 30px 0;
+
+	font-family: 'Nunito', sans-serif;
+	font-style: normal;
+	line-height: 23px;
+	font-size: 14px;
+
+	color: #17222D;
+}

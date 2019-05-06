@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>Lafito - Cadastro</title>
+	<meta name="description" content="Liga Acadêmica de Fisioterapia Traumato Ortopédica da UNEB">
+	<meta property="og:type" content="website"/>
+	<meta property="og:title" content="Lafito - Liga Acadêmica"/>
+	<meta property="og:description" content="Liga Acadêmica de Fisioterapia Traumato Ortopédica da UNEB"/>
+	<meta property="og:url" content="http://lafito.com"/>
+	<meta property="og:image" content="http://lafito.com/img/og-image.png"/>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="img/icones/lafito-logo-azul.png">
+
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/grid.css">
+	<link rel="stylesheet" href="css/cores.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/login.css">
+
+</head>
+<body>
+	<header class="header header_interno">
+		<div class="container">
+			<a href="index.html" class="grid-4">
+				<img src="img/lafito.png" alt="Lafito">
+			</a>
+			<nav class="grid-12 header_menu">
+				<ul>
+					<li><a href="alafito.html">A Lafito</a></li>
+					<li><a href="projetos.html">Projetos</a></li>
+					<li><a href="eventos.html">Eventos</a></li>
+					<li><a href="contato.html">Contato</a></li>
+					<li><a href="login.html">Login</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<section class="container login">
+			<h2>Cadastro</h2>
+			<h4>Informe seus dados abaixo para se cadastrar</h4>
+				<form action="cadastrar.php" method="post" name="form" class="formphp login_form grid-16">
+						<label for="nome">Nome</label>
+						<input id="nome" name="nome" type="text">
+						<label for="sobrenome">Sobrenome</label>
+						<input name="sobrenome" id="sobrenome">
+						<label for="email">Email</label>
+						<input id="email" name="email" type="text">
+						<label for="senha">Senha</label>
+						<input name="senha" id="senha">
+						<label for="confirmar_senha">Confirmar a Senha</label>
+						<input name="confirmar_senha" id="confirmar_senha">
+					<div class="btn_form">
+						<button id="cadastrar" name="cadastrar" type="submit" class="btn">Cadastrar</button>
+					</div>
+
+				</form>	
+				<div class="link_form">
+					<a href="login.html">Já tem um conta? Entre!</a>
+			</div>
+	</section>
+
+	<!-- Rodape -->
+		<footer>
+			<div class="footer">
+				<div class="container">
+
+					<div class="grid-8 copy">
+						<p class="grid-16">Lafito 2019 - Alguns direitos reservados.</p>
+						<p class="grid-16">Desenvolvido por <a href="https://www.linkedin.com/in/hygornunes/" target="_blank">Hygor Nunes</a></p>
+					</div>
+
+					<div class="grid-8 footer_redes">
+						<ul>
+							<li><a href="http://facebook.com" target="_blank"><img src="img/icones/face.png" alt=""></a></li>
+							<li><a href="http://instagram.com" target="_blank"><img src="img/icones/insta.png" alt=""></a></li>
+							<li><a href="http://twitter.com" target="_blank"><img src="img/icones/lafito-logo.png" alt=""></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>	
+	
+</body>
+</html>

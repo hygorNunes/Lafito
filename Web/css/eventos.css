@@ -1,0 +1,228 @@
+.header {
+	top: 0px;
+}
+.intro_eventos {
+	width: 100%;
+	margin-top: 40px;
+	padding: 30px 0;
+}
+.intro_eventos h2 {
+	position: relative;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Libre Baskerville', 'Times New Roman', serif;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size:48px;
+	color: #EFF4F9;
+}
+.intro_eventos h2:before {
+	content: "";
+	display: block;
+	background: #EFF4F9;
+	width: 200px;
+	height: 3px;
+	margin: 15px auto;
+	
+}
+.intro_eventos h2:after {
+	content: "";
+	display: block;
+	background: #EFF4F9;
+	width: 200px;
+	height: 3px;
+	margin: 15px auto;
+}
+.capa {
+	text-align: center;
+	background-size: cover;
+}
+.eventos_simposios {
+	width: 45%;
+	height: 555px;
+	padding-top: 225px;
+	background: url('../img/eventos-simposios.jpg') no-repeat center;
+}
+.eventos_palestras {
+	width: 100%;
+	height: 270px;
+	padding-top: 60px;
+	padding-left: 30px;
+	background: url('../img/eventos-palestras.jpg') no-repeat center;
+}
+.eventos_workshops {
+	width: 100%;
+	height: 270px;
+	margin-top: 15px;
+	padding-top: 70px;
+	background: url('../img/eventos-workshops.jpg') no-repeat center;
+}
+/* Eventos_resumo */
+.eventos_resumo {
+	margin-top: 60px;
+}
+.eventos_resumo h2 {
+	text-transform: uppercase;
+	text-align: center;
+	font-family: 'Nunito', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+
+	color: #17222D;
+}
+.eventos_resumo h2:after {
+	content: "";
+	display: block;
+	width: 120px;
+	height: 3px;
+	background: #17222D;
+	margin:  10px auto 12px auto;
+}
+.eventos_resumo p {
+	padding:  15px;
+	font-family: 'Nunito', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 29px;
+	font-size: 14px;
+
+	color: #17222D;
+}
+
+.icones {
+	width: 35%;
+	height: 325px;
+	background: #1C295E;
+}
+.icones img {
+	padding: 55px;
+	text-align: center;
+}
+.descricao {
+	margin-left: 10px;
+}
+.ver {
+	text-align: center;
+	margin-top: 15px;
+}
+.marcacao-preta {
+	display: inline-block;
+	width: 20px;
+	height: 10px;
+
+	background: #000;
+}
+.galeria {
+	margin-top: 60px;
+}
+.galeria h1{
+	font-family: 'Nunito', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 48px;
+
+	color: #17222D;
+}
+.galeria h1:after{
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background:  #17222D;
+	margin:  5px auto;
+}
+.eventos_galeria {
+	padding-top: 15px;
+	padding-bottom: 30px;
+}
+
+/* Generica */
+
+.generica {
+	width: 100%;
+	padding-top: 60px;
+	padding-left: 30px;
+}
+.imagem-generica {
+	padding-top: 60px;
+}
+.desc-generica {
+	margin-left: 60px;
+	width: 400px;
+}
+.desc-generica h3 {
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 28px;
+
+	color: #000000;
+}
+
+.desc-generica p, .desc-generica span {
+	text-align: left;
+	padding: 30px 0;
+
+	font-family: 'Nunito', sans-serif;
+	font-style: normal;
+	line-height: 23px;
+	font-size: 14px;
+
+	color: #17222D;
+}
+.programacao {
+	margin-top: 60px;
+}
+.programacao h3 {
+	padding-left: 15px;
+}
+.programacao_agenda {
+	margin-left: 10px;
+}
+.programacao_lista ul {
+	padding: 30px;
+}
+.programacao_lista ul li {
+	padding-top: 10px;
+}
+.programacao_lista ul li span {
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 25px;
+	font-size: 18px;
+
+	color: #EFF4F9;
+}
+.programacao_lista ul li span.horario {
+	color: #BBCCDD;
+}
+/* Participar */
+.participar {
+	margin-top: 60px;
+}
+.participar_informacoes {
+	margin-top: 15px;
+	margin-left: 200px;
+ }
+.participar_informacoes p {
+	padding-bottom: 10px;
+}
+.participar_informacoes h5 {
+	padding-top:5px;
+}
+/* localizacao */
+
+.localizacao {
+	margin-top: 60px;
+}
+.como_chegar ul{
+	margin-top: 10px;
+}
+.transporte {
+	color: #99AABB;
+}

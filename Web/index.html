@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>Lafito</title>
+	<meta name="description" content="Liga Acadêmica de Fisioterapia Traumato Ortopédica da UNEB">
+	<meta property="og:type" content="website"/>
+	<meta property="og:title" content="Lafito - Liga Acadêmica"/>
+	<meta property="og:description" content="Liga Acadêmica de Fisioterapia Traumato Ortopédica da UNEB"/>
+	<meta property="og:url" content="http://lafito.com"/>
+	<meta property="og:image" content="http://lafito.com/img/og-image.png"/>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="img/icones/lafito-logo-azul.png">
+
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/grid.css">
+	<link rel="stylesheet" href="css/cores.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="aviso">
+		<p>Encontros todas as terças e quintas das 15:00h às 17:00h</p>
+	</div>
+	<header class="header">
+		<div class="container">
+			<a href="index.html" class="grid-4">
+				<img src="img/lafito.png" alt="Lafito">
+			</a>
+			<nav class="grid-12 header_menu">
+				<ul>
+					<li><a href="alafito.html">A Lafito</a></li>
+					<li><a href="projetos.html">Projetos</a></li>
+					<li><a href="eventos.html">Eventos</a></li>
+					<li><a href="contato.html">Contato</a></li>
+					<li><a href="login.html">Login</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+		
+	<section class="introducao">
+		<div class="container">
+			<h1>Lafito</h1>
+			<blockquote class="quote-externo">
+				<p>"Com a fisioterapia procuramos manter a vida em movimento"</p>
+				<cite>FELIPE SERENO</cite>
+			</blockquote>
+			<a href="alafito.html" class="btn">Saiba Mais</a>
+		</div>
+	</section>
+	
+	<!-- Projetos Lafito  -->
+
+	<section class="projetos-home container">
+		<h2>Projetos Lafito</h2>
+		<ul class="projetos-home_lista">
+			<li class="grid-1-3">
+				<div class="projetos_icone"><img src="img/icones/eventos.png" alt="Logo Evento"></div>
+				<h3>Eventos</h3>
+				<p>Evidentemente, a consolidação das estruturas não pode mais se dissociar do retorno esperado a longo prazo.</p>
+				<a href="eventos.html" class="btn btn-azul">Saiba mais</a>
+			</li>
+
+			<li class="grid-1-3">
+				<div class="projetos_icone"><img src="img/icones/pesquisa.png" alt="Logo Pesquisa"></div>
+				<h3>Pesquisa</h3>
+				<p>Evidentemente, a consolidação das estruturas não pode mais se dissociar do retorno esperado a longo prazo.</p>
+				<a href="pesquisa.html" class="btn btn-azul">Saiba mais</a>
+			</li>
+
+			<li class="grid-1-3">
+				<div class="projetos_icone"><img src="img/icones/extensao.png" alt="Logo Extensão"></div>
+				<h3>Extensão</h3>
+				<p>Evidentemente, a consolidação das estruturas não pode mais se dissociar do retorno esperado a longo prazo.</p>
+				<a href="entensao.html" class="btn btn-azul">Saiba mais</a>
+			</li>
+		</ul>
+	</section>
+		
+	<!-- Próximos eventos -->
+
+	<section class="calendario container">
+			<h2>Calendário</h2>
+			<ul class="proximos-eventos_lista">
+
+				<li class="grid-1-3">
+					<div class="desc-evento">
+						<h4>PALESTRA na UNEB</h4>
+						<h3>Mar.18</h3>
+						<h5>Palestra Traumato Terapia</h5>
+						<p>Podemos já vislumbrar o modo pelo qual a contínua expansão de nossa atividade ainda não demonstrou convincentemente que vai participar na mudança do processo de comunicação como um todo.</p>
+					</div>
+				</li>
+
+				<li class="grid-1-3">
+					<div class="desc-evento">
+						<h4>Simposio na UNEB</h4>
+						<h3>Jun.09</h3>
+						<h5>SIMPOSIO VIII</h5>
+						<p>Podemos já vislumbrar o modo pelo qual a contínua expansão de nossa atividade ainda não demonstrou convincentemente que vai participar na mudança do processo de comunicação como um todo.</p>
+					</div>
+				</li>
+
+				<li class="grid-1-3">
+					<div class="desc-evento">
+						<h4>workshop na UNEB</h4>
+						<h3>Dez.21</h3>
+						<h5>WORKSHOP DE QUIROPRAXIA</h5>
+						<p>Podemos já vislumbrar o modo pelo qual a contínua expansão de nossa atividade ainda não demonstrou convincentemente que vai participar na mudança do processo de comunicação como um todo.</p>
+					</div>
+				</li>
+			</ul>
+		</section>
+
+		<!--- Contato ---->
+
+		<section class="contato container">
+
+			<h2>Contato</h2>
+
+			<form action="enviar.php" method="post" name="form" class="formphp contato_form grid-8">
+						<label for="nome">Nome</label>
+						<input id="nome" name="nome" type="text">
+						<label for="email">Email</label>
+						<input id="email" name="email" type="text">
+						<label for="mensagem">Mensagem</label>
+						<textarea name="mensagem" id="mensagem"></textarea>
+
+						<button id="enviar" name="enviar" type="submit" class="btn">Enviar Mensagem</button>
+					</form>		
+
+					<div class="separacao grid-4"></div>
+
+					<div class="contato_dados grid-4">
+					<h3>Endereço</h3>
+					<span>Uneb - Rua Silveira Martins, 1888.</span>
+					<span>Salvador - BA</span>
+					<span><a href="">Ver no mapa</a></span>	
+
+					<h3>Email & Telefone</h3>
+					<span>lafito@gmail.com</span>
+					<span>071 9999-9999</span>
+
+					<h3>Horário</h3>
+					<span>Terça e Quinta</span>
+					<span>Das 15:00h às 17:00h</span>
+				</div>
+		</section>
+	
+	<!-- Rodape -->
+		<footer>
+			<div class="footer">
+				<div class="container">
+
+					<div class="grid-8 copy">
+						<p class="grid-16">Lafito 2019 - Alguns direitos reservados.</p>
+						<p class="grid-16">Desenvolvido por <a href="https://www.linkedin.com/in/hygornunes/" target="_blank">Hygor Nunes</a></p>
+					</div>
+
+					<div class="grid-8 footer_redes">
+						<ul>
+							<li><a href="http://facebook.com" target="_blank"><img src="img/icones/face.png" alt=""></a></li>
+							<li><a href="http://instagram.com" target="_blank"><img src="img/icones/insta.png" alt=""></a></li>
+							<li><a href="http://twitter.com" target="_blank"><img src="img/icones/lafito-logo.png" alt=""></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>	
+	
+</body>
+</html>
